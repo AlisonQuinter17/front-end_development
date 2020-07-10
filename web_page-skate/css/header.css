@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/blue.jpg);
+    background-attachment: fixed;
+}
+
+.producto:hover {
+    background-color: rgba(75, 112, 129, 0.76);
+    color: whitesmoke;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.fondo {
+    background-image: url(../images/pinturas.jpg);
+}
+
+.fondo img {
+    height: 120px;
+    padding: 3px;
+}
+
+.fondo img:hover {
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.menu {
+    background-color: #000e2c;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.menu ul {
+    justify-content: flex-end;
+
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu li {
+    padding-right: 120px;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 26px;
+    border-radius: 10px;
+
+    padding: 10px;
+    display: block;
+}
+
+
+.menu a:hover {
+    background-color: rgba(213, 242, 255, 0.932);
+    color: rgb(2, 2, 2);
+}
+
+.caja__search {
+    background-color: #201e8db2;
+    margin: 0;
+}
+
+
+/* Footer */
+
+.main-footer {
+    display: flex;
+    background-color: #000e2c;
+    padding: 30px 20px 30px 50px;
+}
+
+.big_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+}
+
+#Skate {
+    font-family: 'Source Serif Pro',
+        serif;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Company {
+    font-family: 'Source Serif Pro',
+        serif;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-footer ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 1em;
+}
+
+.lista-footer-1 {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: .40em;
+    margin-left: 0;
+}
+
+.lista-footer-2 {
+    font-size: .95em;
+    font-weight: 300;
+    margin-bottom: .35em;
+    margin-left: 0;
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: white;
+    margin: 2em;
+}
+
+.lista-footer a:hover {
+    border-bottom: 1px solid white;
+}

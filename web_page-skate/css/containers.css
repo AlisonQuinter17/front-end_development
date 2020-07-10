@@ -1,0 +1,289 @@
+/* Estilo de las fuentes. */
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 5px;
+}
+
+h1 {
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    font-size: 30px;
+}
+
+.texto::first-letter {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+
+/* Division del banner */
+
+.banner {
+    float: right;
+    position: fixed;
+    display: block;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 12px;
+    margin-top: 40.5%;
+    margin-left: 91.5%;
+}
+
+.banner img {
+    width: 150px;
+}
+
+.banner img:hover {
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.banner-texto {
+    position: absolute;
+    top: 30%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-texto:hover {
+    font-size: 15px;
+}
+
+
+/* Division general */
+
+.general {
+    margin: auto;
+    width: 85%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.596);
+    color: rgb(255, 255, 255);
+    padding: 1px;
+}
+
+
+/* Division cronologia de twitter y lista del contenido. */
+
+.sugerencias {
+    float: right;
+    width: 25%;
+    background-color: rgba(27, 26, 37, 0.897);
+    border-radius: 20px;
+    border: 2px rgba(255, 255, 255, 0.247) double;
+}
+
+.lista-centrada {
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.store {
+    grid-template-columns: 100px 120px 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 10px;
+    row-gap: 15px;
+    gap: 1em;
+    padding: 1em;
+    align-items: center;
+}
+
+.producto {
+    background-color: rgba(192, 255, 229, 0.432);
+    border: 1px solid;
+    border-radius: 1em;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 1.5em;
+}
+
+
+/* divisiones cuerpos. */
+.grid {
+    display: grid;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+}
+
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.texto {
+    padding: 25px;
+}
+
+.efecto-gradient {
+    background: linear-gradient(360deg, transparent, rgba(0, 13, 27, 0.822) 100%);
+    border-radius: 20px;
+}
+
+.efecto-gradient2 {
+    background: linear-gradient(180deg, transparent, rgba(0, 13, 27, 0.822) 100%);
+    border-radius: 20px;
+}
+
+.box {
+    margin-top: 5px;
+    width: 98%;
+    display: grid;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.658);
+}
+
+.img_div-1 {
+    display: flex;
+    float: left;
+    padding: 10px;
+    border-radius: 20px;
+    width: 35%;
+}
+
+.img_div-1:hover {
+    padding: 0.6em;
+    background-color: rgba(96, 223, 255, 0.623);
+}
+
+
+.gif {
+    display: flex;
+    float: right;
+    padding: 5px;
+    width: 160px;
+    height: 160px;
+    border-radius: 900px;
+    border: 2px rgb(250, 250, 250) double;
+}
+
+.gif:hover {
+    padding: 0.5em;
+    background-color: rgba(0, 255, 136, 0.959);
+    cursor: pointer;
+}
+
+.video {
+    padding: 3px;
+    width: 100%;
+    height: 500px;
+    border: 4px double rgb(251, 255, 29);
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.video:hover {
+    padding: 0.5em;
+    background-color: rgba(221, 130, 10, 0.959);
+}
+
+.cuerpo4-imagen {
+    float: right;
+    padding: 4px;
+    border: 3px rgb(0, 255, 221) dotted;
+    border-radius: 20px;
+    width: 350px;
+    height: 300px;
+    margin: 0px 10px;
+}
+
+.cuerpo4-imagen:hover {
+    padding: 0.5em;
+    background-color: rgba(0, 115, 160, 0.459);
+    cursor: pointer;
+}
+
+.cuerpo5-caption {
+    color: rgb(255, 255, 255);
+}
+
+table {
+    border-color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0);
+    background-color: rgba(231, 182, 255, 0.623);
+    margin: auto;
+    padding: 5px;
+}
+
+td {
+    border: 3px solid rgba(37, 0, 44, 0.733);
+    color: black;
+    font-family: sans-serif;
+}
+
+th {
+    border: 3px solid rgb(37, 0, 44, 0.733);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    padding: 9px;
+}
+
+
+
+
+
+/* Iconos de Redes sociales */
+
+.social {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.social ul li .icon-youtube {
+    background: #db0000;
+}
+
+.social ul li .icon-twitter {
+    background: #00abf0;
+}
+
+.social ul li .icon-facebook {
+    background: #3b5998;
+}
+
+.social ul li .icon-instagram {
+    background: #eb6a00;
+}
+
+.social ul li .icon-github {
+    background: #24292e;
+}
+
+.social ul li .icon-mail3 {
+    background: #666666;
+}
+
+.social ul li a:hover {
+    background: rgba(0, 0, 0, 0.664);
+    padding: 10px 30px;
+}

@@ -1,0 +1,172 @@
+.color1 {
+    background-color: rgba(0, 36, 53, 0.712);
+    animation-duration: 5s;
+    animation-name: color1;
+    animation-iteration-count: 3;
+}
+
+@keyframes color1 {
+    from {
+        background-color: rgba(0, 155, 167, 0.644);
+    }
+
+    to {
+        background-color: rgba(0, 36, 53, 0.808);
+    }
+}
+
+
+
+.color2 {
+    background-color: rgba(0, 53, 37, 0.644);
+    animation-duration: 6s;
+    animation-name: color2;
+    animation-iteration-count: 3;
+}
+
+@keyframes color2 {
+    from {
+        background-color: rgba(32, 160, 0, 0.63);
+    }
+
+    to {
+        background-color: rgba(0, 53, 37, 0.644);
+    }
+}
+
+
+
+.color3 {
+    background-color: rgba(70, 68, 0, 0.644);
+    animation-duration: 7s;
+    animation-name: color3;
+    animation-iteration-count: 3;
+}
+
+@keyframes color3 {
+    from {
+        background-color: rgba(228, 156, 0, 0.774);
+    }
+
+    to {
+        background-color: rgba(70, 68, 0, 0.644);
+    }
+}
+
+
+
+.color4 {
+    background-color: rgba(78, 0, 0, 0.644);
+    animation-duration: 8s;
+    animation-name: color4;
+    animation-iteration-count: 3;
+}
+
+@keyframes color4 {
+    from {
+        background-color: rgba(235, 1, 1, 0.651);
+    }
+
+    to {
+        background-color: rgba(78, 0, 0, 0.644);
+    }
+}
+
+
+
+.color5 {
+    background-color: rgba(53, 0, 27, 0.644);
+    animation-duration: 9s;
+    animation-name: color5;
+    animation-iteration-count: 2;
+}
+
+@keyframes color5 {
+    from {
+        background-color: rgba(151, 1, 104, 0.521);
+    }
+
+    to {
+        background-color: rgba(53, 0, 27, 0.644);
+    }
+}
+
+
+/* Desplazamiento */
+
+.mono {
+    animation-name: monox;
+    position: relative;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes monox {
+    0% {
+        left: 10px;
+        top: 0px;
+    }
+
+    50% {
+        left: 700px;
+        top: 0px;
+    }
+
+    100% {
+        left: 1550px;
+        top: 0px;
+    }
+}
+
+.rueda {
+    width: 40px;
+    animation-name: rueda;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: 100;
+    animation-direction: alternate-reverse;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+@keyframes rueda {
+    0% {
+        background-color: white;
+        transform: rotate(0deg);
+        left: 20px;
+        top: 0px;
+    }
+
+    100% {
+        background-color: white;
+        transform: rotate(360deg);
+        left: 1600px;
+        top: 0px;
+    }
+}
+
+.rueda2 {
+    width: 40px;
+    animation-name: rueda2;
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: 100;
+    border-radius: 50%;
+}
+
+@keyframes rueda2 {
+    from {
+        background-color: white;
+        transform: rotate(0deg);
+        left: 1000px;
+        top: 0px;
+    }
+
+    to {
+        background-color: white;
+        transform: rotate(360deg);
+        left: 1000px;
+        top: 0px;
+    }
+}
